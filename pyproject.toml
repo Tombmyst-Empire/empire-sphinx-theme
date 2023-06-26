@@ -40,7 +40,7 @@ classifiers = [
 ]
 
 [project.entry-points]
-"sphinx.html_themes" = {empire-sphinx-theme = "empire_sphinx_theme"}
+"sphinx.html_themes" = {empire_sphinx_theme = "empire_sphinx_theme"}
 
 [project.urls]
 GitHub = "https://github.com/pradyunsg/furo"
