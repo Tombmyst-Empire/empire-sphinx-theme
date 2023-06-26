@@ -1,5 +1,10 @@
+from setuptools import setup
+
 # 'setup.py'
 setup(
+    name="empire-sphinx-theme",
+    version="1.0",
+    author="Yann Tremblay",
     entry_points = {
         'sphinx.html_themes': [
             'empire_theme = empire_theme'
