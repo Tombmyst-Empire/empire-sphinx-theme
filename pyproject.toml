@@ -8,6 +8,7 @@ node-version = "18.16.0"
 [project]
 name = "empire-sphinx-theme"
 description = "Sphinx Theme for Empire project"
+version = "1.0"
 
 requires-python = ">=3.7"
 dependencies = [
