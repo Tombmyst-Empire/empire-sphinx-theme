@@ -6,7 +6,7 @@ build-backend = "sphinx_theme_builder"
 node-version = "18.16.0"
 
 [project]
-name = "empire_sphinx_theme"
+name = "empire-sphinx-theme"
 description = "Sphinx Theme for Empire project"
 version = "1.0"
 
