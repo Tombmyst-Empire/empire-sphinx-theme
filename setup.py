@@ -7,7 +7,7 @@ setup(
     author="Yann Tremblay",
     entry_points = {
         'sphinx.html_themes': [
-            'empire_theme = empire_theme'
+            'empire_sphinx_theme = empire_sphinx_theme'
         ]
     }
 )
@@ -16,4 +16,4 @@ setup(
 from os import path
 
 def setup(app):
-    app.add_html_theme('empire_theme', path.abspath(path.dirname(__file__)))
+    app.add_html_theme('empire_sphinx_theme', path.abspath(path.dirname(__file__)))
