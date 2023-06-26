@@ -1,12 +1,10 @@
 # 'setup.py'
 setup(
-    ...
     entry_points = {
         'sphinx.html_themes': [
-            'empire_theme = empire_theme',
+            'empire_theme = empire_theme'
         ]
-    },
-    ...
+    }
 )
 
 # 'your_package.py'
