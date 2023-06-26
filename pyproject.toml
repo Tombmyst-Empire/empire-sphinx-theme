@@ -1,9 +1,6 @@
 [build-system]
-requires = ["sphinx-theme-builder >= 0.2.0a10"]
-build-backend = "sphinx_theme_builder"
-
-[tool.sphinx-theme-builder]
-node-version = "18.16.0"
+requires = ["flit_core>=3.7"]
+build-backend = "flit_core.buildapi"
 
 [project]
 name = "empire-sphinx-theme"
@@ -41,6 +38,3 @@ classifiers = [
 
 [project.entry-points]
 "sphinx.html_themes" = {empire_sphinx_theme = "empire_sphinx_theme"}
-
-[project.urls]
-GitHub = "https://github.com/pradyunsg/furo"
